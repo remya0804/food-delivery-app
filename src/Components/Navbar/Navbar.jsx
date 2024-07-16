@@ -45,7 +45,7 @@ const Navbar = ({setLogin}) => {
 
         <div className="navbar-cart">
 
-         <Link to='/cart'> <MdOutlineShoppingCart /> </Link>
+         <Link to='/food-delivery-app/cart'> <MdOutlineShoppingCart /> </Link>
 
           {/* <div className={cartItems[1]>0 ? "cart-circle" : "no-cart-circle"}></div> */}
           <div className={getTotal() > 0 ? "cart-circle" : ""}></div>
