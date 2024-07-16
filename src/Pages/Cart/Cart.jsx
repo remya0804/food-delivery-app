@@ -94,7 +94,7 @@ const Cart = () => {
 
           </div>
 
-          <button onClick={() => navigate('/order')}>PROCEED TO CHECKOUT</button>
+          <button onClick={() => navigate('/food-delivery-app/order')}>PROCEED TO CHECKOUT</button>
         </div>
       
 
