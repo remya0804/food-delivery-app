@@ -18,7 +18,7 @@ const Navbar = ({setLogin}) => {
 
     <div className="navbar">
 
-      <Link to='/'>
+      <Link to='/food-delivery-app'>
 
         <div className="logo">
 
@@ -32,7 +32,7 @@ const Navbar = ({setLogin}) => {
 
       <ul className="navbar-menu">
 
-        <Link to='/' className={menuActive === 'home' ? 'active' : ""} onClick={() => setMenuActive("home")}>Home</Link>
+        <Link to='/food-delivery-app' className={menuActive === 'home' ? 'active' : ""} onClick={() => setMenuActive("home")}>Home</Link>
         <a href='#explore-menu' className={menuActive === 'menu' ? 'active' : ""} onClick={() => setMenuActive("menu")}>Menu</a>
         <a href='#app-download' className={menuActive === 'mobile-app' ? 'active' : ""} onClick={() => setMenuActive("mobile-app")}>Mobile-App</a>
         <a href='#footer' className={menuActive === 'contact-us' ? 'active' : ""} onClick={() => setMenuActive("contact-us")}>Contact Us</a>
