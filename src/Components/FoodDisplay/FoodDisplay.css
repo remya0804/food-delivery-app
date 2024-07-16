@@ -1,0 +1,26 @@
+@import '../../index.css';
+
+.fooddisplay{
+
+    margin-top: 30px;
+}
+
+.fooddisplay h2{
+
+    font-size: max(2vw,24px);
+    font-weight: 900;
+
+    color: var(--logo-color);
+}
+
+.foodlist{
+
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+   
+    gap:30px;
+    row-gap: 50px; 
+    
+}

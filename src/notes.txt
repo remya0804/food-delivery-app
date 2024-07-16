@@ -1,0 +1,20 @@
+1. bg img 
+
+ background: url('/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+2. The max() function uses the largest value, from a comma-separated list of values, as the property value.
+
+ font-size: max(4.5vw,22px);
+
+ 3. scrollbar
+
+ overflow-x: scroll;
+
+ hiding,
+
+ .exploremenu-list::-webkit-scrollbar{
+
+    display: none;
+}
